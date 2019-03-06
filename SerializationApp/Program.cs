@@ -15,7 +15,7 @@ namespace SerializationApp
         {
             Person person = new Person
             {
-
+                FullName = "Denis"
             };
           
             string json = JsonConvert.SerializeObject(person);
